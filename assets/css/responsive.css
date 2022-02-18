@@ -1,3 +1,37 @@
 /*     common section start  */
-
+@media (min-width: 320px) and ( max-width: 991px) {
+    input.form-control.me-2 {
+        width: 100%;
+        margin: 20px 0;
+    }
+    h1.banner-heading {
+        font-size: 180%;
+        color: #1F1F1F;
+        padding: 0 4% 0 0;
+    }
+    p.banner-text {
+        font-size: 74%;
+        color: #707070;
+        padding: 20px 0;
+    }
+    h3.banner-price {
+        font-size: 90%;
+        color: #FF136F;
+        padding-bottom: 20px;
+    }
+    img.banner-img {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .banner-wrraper {
+        height: 600px;
+        border-radius: 10px;
+    }
+    .banner-content {
+        padding: 8% 0 0 12%;
+    }
+    p.banner-text {
+        padding: 20px 12% 0 0%;
+    }
+}
 /* / / common section end / / */

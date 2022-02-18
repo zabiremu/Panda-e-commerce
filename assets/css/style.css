@@ -39,6 +39,10 @@ a.nav-link {
     font-size: 18px;
     font-weight: 500;
     color: #707070;
+    transition: all linear 0.4s;
+}
+a.nav-link:hover{
+    color: #FEEAE9 ;
 }
 /* // navbar section end  */
 /*   section start  */
