@@ -1,4 +1,5 @@
 $(function(){
+  new WOW().init();
     $('.banner-details-area').slick({
         slidesToShow: 1,
         slidesToScroll: 1,

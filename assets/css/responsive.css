@@ -33,5 +33,58 @@
     p.banner-text {
         padding: 20px 12% 0 0%;
     }
+    h2.cat-heading.d-inline-block {
+        font-size: 190%;
+        padding-left: 8%;
+    }
+    img.cat-thum.ms-auto {
+        width: 60%;
+    }
+    img.cat-thum.ms-auto {
+        width: 60%;
+    }
+    section#categoies {
+        margin: 0% 0%;
+    }
+    .cat-wrapper {
+        margin: 3% 0;
+    }
+    h3.shoes-head {
+        font-size: 120%;
+    }
+    h4.shoes-des {
+        font-size: 74%;
+    }
+    h5.shoes-price {
+        font-size: 150%;
+    }
+    button.shoes-buy {
+    font-size: 94%;
+    }
+    h2.footer-des {
+        font-size: 96%;
+    }    
+    input.footer-serch {
+        width: 60%;
+    }
+    h2.footer-heading {
+        font-size: 140%;
+    }
+    h3.shoes-head {
+        font-size: 96%;
+    }
 }
 /* / / common section end / / */
+/*  mobile section start  */
+@media (min-width: 992px) and ( max-width: 1199px){
+    input.form-control.me-2 {
+        width: 300px;
+    }
+    h2.cat-heading.d-inline-block {
+        font-size: 220%;
+        padding-left: 7%;
+    }
+    h3.shoes-head {
+        font-size: 96%;
+    }
+}
